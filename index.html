@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Privacy Policy for the ExpenceTracker mobile application." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%232f6bff'/%3E%3Ctext x='50' y='70' font-size='54' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E" />
+<title>Privacy Policy — ExpenceTracker</title>
+<style>
+  :root {
+    --bg: #f4f6fb;
+    --card: #ffffff;
+    --text: #1a2233;
+    --muted: #5b6577;
+    --line: #e6e9f0;
+    --accent: #2f6bff;
+    --accent-soft: #eaf0ff;
+    --radius: 16px;
+    --shadow: 0 10px 30px rgba(20, 32, 60, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1420;
+      --card: #151c2c;
+      --text: #e8ecf5;
+      --muted: #9aa5ba;
+      --line: #263048;
+      --accent: #6b96ff;
+      --accent-soft: #1b2744;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .hero {
+    background: linear-gradient(135deg, var(--accent) 0%, #7a5cff 100%);
+    color: #fff;
+    padding: 56px 20px 84px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .hero h1 {
+    margin: 18px 0 8px;
+    font-size: clamp(28px, 5vw, 40px);
+    line-height: 1.2;
+    font-weight: 800;
+  }
+  .hero p {
+    margin: 0 auto;
+    max-width: 560px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 15.5px;
+  }
+  .hero .dates {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .wrap {
+    max-width: 880px;
+    margin: -48px auto 64px;
+    padding: 0 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: clamp(22px, 4vw, 44px);
+  }
+  .toc {
+    background: var(--accent-soft);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 34px;
+  }
+  .toc h2 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  .toc ol {
+    margin: 0;
+    padding-left: 20px;
+    columns: 2;
+    column-gap: 28px;
+    font-size: 14.5px;
+  }
+  .toc a { color: var(--accent); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  section { margin-bottom: 36px; scroll-margin-top: 20px; }
+  h2.section-title {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 12px;
+    font-size: 20px;
+    font-weight: 750;
+  }
+  h2.section-title .num {
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 800;
+    min-width: 26px;
+  }
+  h3 { font-size: 15.5px; margin: 20px 0 6px; }
+  p { margin: 0 0 12px; }
+  ul { margin: 8px 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .muted { color: var(--muted); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 16px;
+    font-size: 14.5px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    background: var(--accent-soft);
+    font-weight: 650;
+    font-size: 13.5px;
+  }
+  .note {
+    border-left: 4px solid var(--accent);
+    background: var(--accent-soft);
+    border-radius: 0 10px 10px 0;
+    padding: 14px 16px;
+    font-size: 14.5px;
+    margin: 14px 0;
+  }
+  .contact-box {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: var(--bg);
+  }
+  .contact-box a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 0 16px 48px;
+  }
+  @media (max-width: 560px) {
+    .toc ol { columns: 1; }
+    .hero { padding: 44px 16px 76px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="badge">ExpenceTracker</span>
+  <h1>Privacy Policy</h1>
+  <p>How ExpenceTracker handles your information — clearly and without fine print.</p>
+  <div class="dates">Effective date: 15 October 2026 &nbsp;•&nbsp; Last updated: 15 October 2026</div>
+</header>
+
+<main class="wrap">
+  <div class="card">
+
+    <div class="toc">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#s1">Who we are</a></li>
+        <li><a href="#s2">Information we collect</a></li>
+        <li><a href="#s3">How we use information</a></li>
+        <li><a href="#s4">Where your data is stored</a></li>
+        <li><a href="#s5">Sharing</a></li>
+        <li><a href="#s6">Retention &amp; deletion</a></li>
+        <li><a href="#s7">Your rights</a></li>
+        <li><a href="#s8">Security</a></li>
+        <li><a href="#s9">Children's privacy</a></li>
+        <li><a href="#s10">International processing</a></li>
+        <li><a href="#s11">Changes to this policy</a></li>
+        <li><a href="#s12">Contact us</a></li>
+      </ol>
+    </div>
+
+    <section id="s1">
+      <h2 class="section-title"><span class="num">01</span> Who we are</h2>
+      <p>
+        ExpenceTracker ("the app", "we", "us") is a personal finance application
+        for Android that helps you record income and expenses, plan budgets,
+        track goals, loans, subscriptions, bills and reminders, and view
+        insights about your money.
+      </p>
+      <p>
+        This Privacy Policy explains what information the app collects, why we
+        collect it, how it is protected, and the choices you have. By using the
+        app, you agree to this policy.
+      </p>
+    </section>
+
+    <section id="s2">
+      <h2 class="section-title"><span class="num">02</span> Information we collect</h2>
+
+      <h3>a. Information you provide</h3>
+      <ul>
+        <li><strong>Account information</strong> — your name and email address when you create
+          an account, either with email and password or with Google Sign-In.
+          If you use Google Sign-In, we receive only your basic profile
+          (name and email address) from Google.</li>
+        <li><strong>Optional personal details</strong> — for example phone number, date of
+          birth, gender, occupation or city, if you choose to add them to
+          your profile. These are optional and can be edited or cleared at
+          any time.</li>
+        <li><strong>Financial information you enter</strong> — the accounts, transactions,
+          budgets, goals, loans, subscriptions, bills, categories and
+          reminders that you create in the app. This information is provided
+          by you and used only to operate the app's features.</li>
+      </ul>
+
+      <h3>b. Information collected automatically</h3>
+      <ul>
+        <li><strong>Basic technical information</strong> — such as app version, device
+          platform and language, used to keep the app working correctly on
+          your device.</li>
+        <li><strong>Sync status</strong> — whether your device is connected to the internet,
+          so the app knows when it can synchronise your data.</li>
+      </ul>
+      <p class="muted">
+        The app does not use advertising identifiers and does not include
+        third-party advertising or behavioural tracking.
+      </p>
+
+      <h3>c. Device permissions</h3>
+      <table>
+        <tr>
+          <th>Permission</th>
+          <th>Why it is used</th>
+        </tr>
+        <tr>
+          <td>Notifications</td>
+          <td>To deliver the reminders and alarms you schedule in the app.
+              Notifications are generated on your device.</td>
+        </tr>
+        <tr>
+          <td>Biometrics / Fingerprint</td>
+          <td>To lock the app when you enable the optional App Lock. Your
+              biometric data is verified by your device's operating system;
+              the app never sees or stores it.</td>
+        </tr>
+        <tr>
+          <td>Internet access</td>
+          <td>To sign in and to synchronise your data with your account when
+              you are online.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="s3">
+      <h2 class="section-title"><span class="num">03</span> How we use information</h2>
+      <ul>
+        <li>To create and secure your account and let you sign in.</li>
+        <li>To provide the app's features — recording transactions, budgets,
+            goals, insights, reminders and reports.</li>
+        <li>To synchronise your data across sessions and devices when you are
+            signed in and online.</li>
+        <li>To send you the reminders and notifications you have scheduled.</li>
+        <li>To protect the app and your data, and to respond to your support
+            requests.</li>
+      </ul>
+      <p>
+        We do not use your financial information for advertising, profiling,
+        or any purpose other than operating the app for you. We do not sell
+        your personal information.
+      </p>
+    </section>
+
+    <section id="s4">
+      <h2 class="section-title"><span class="num">04</span> Where your data is stored</h2>
+      <p>
+        <strong>On your device first.</strong> ExpenceTracker is designed to work
+        offline. Your data is stored in a local database on your device, so
+        you can use the app without an internet connection.
+      </p>
+      <p>
+        <strong>In your account (cloud sync).</strong> When you are signed in and
+        online, your data is synchronised to our cloud database provider,
+        Supabase, so your information is available to you across sessions and
+        devices. Cloud data is transmitted over encrypted connections
+        (HTTPS/TLS) and access is restricted so that each account can only
+        access its own data.
+      </p>
+      <p>
+        If you sign in with Google, Google processes your sign-in as described
+        in Google's own privacy policy. We only receive your name and email
+        address for the purpose of creating and identifying your account.
+      </p>
+    </section>
+
+    <section id="s5">
+      <h2 class="section-title"><span class="num">05</span> Sharing</h2>
+      <p>
+        We do not sell, rent or trade your personal information. Information is
+        shared only with the service providers that make the app work:
+      </p>
+      <ul>
+        <li><strong>Supabase</strong> — hosting for authentication and data synchronisation.</li>
+        <li><strong>Google</strong> — only if you choose Google Sign-In, to authenticate you.</li>
+      </ul>
+      <p>
+        We may also disclose information if required by law, or to protect the
+        rights, safety and security of users or the public.
+      </p>
+    </section>
+
+    <section id="s6">
+      <h2 class="section-title"><span class="num">06</span> Retention &amp; deletion</h2>
+      <ul>
+        <li>Your data is retained for as long as your account is active.</li>
+        <li>You can edit or remove most information directly in the app at any
+            time (for example, accounts, transactions, and personal details).</li>
+        <li>Uninstalling the app removes the data stored on your device.</li>
+        <li>You can request deletion of your account and all cloud data by
+            contacting us at the email below. We will process such requests
+            within a reasonable period (generally within 30 days).</li>
+      </ul>
+    </section>
+
+    <section id="s7">
+      <h2 class="section-title"><span class="num">07</span> Your rights</h2>
+      <p>
+        Depending on where you live, you may have rights over your personal
+        information, including the right to access, correct, export or delete
+        it, and to object to certain processing. Within the app you can:
+      </p>
+      <ul>
+        <li>View and edit your personal details (Profile → Personal Information).</li>
+        <li>Export your data as CSV from the Reports section.</li>
+        <li>Delete individual records at any time.</li>
+      </ul>
+      <p>
+        For anything else — including full account deletion — contact us at the
+        email below and we will help.
+      </p>
+    </section>
+
+    <section id="s8">
+      <h2 class="section-title"><span class="num">08</span> Security</h2>
+      <p>
+        We take reasonable technical and organisational measures to protect
+        your information, including encrypted transmission (HTTPS/TLS),
+        access controls on cloud data, and an optional fingerprint app lock on
+        your device. However, no method of storage or transmission is 100%
+        secure, and we cannot guarantee absolute security.
+      </p>
+    </section>
+
+    <section id="s9">
+      <h2 class="section-title"><span class="num">09</span> Children's privacy</h2>
+      <p>
+        The app is not directed to children under 13 (or the minimum age
+        required in your country). We do not knowingly collect personal
+        information from children. If you believe a child has provided us with
+        personal information, please contact us and we will delete it.
+      </p>
+    </section>
+
+    <section id="s10">
+      <h2 class="section-title"><span class="num">10</span> International processing</h2>
+      <p>
+        Our service providers may store and process data in countries other
+        than your own. Where required, we take steps to ensure your
+        information receives an adequate level of protection consistent with
+        this policy.
+      </p>
+    </section>
+
+    <section id="s11">
+      <h2 class="section-title"><span class="num">11</span> Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we do, we
+        will revise the "Last updated" date at the top of this page and, where
+        the changes are significant, provide notice in the app. Continued use
+        of the app after changes take effect means you accept the updated
+        policy.
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 ExpenceTracker. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
